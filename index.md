@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/vidulshukla/A08/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+	<meta charset="utf-8">
+	<title>San Joaquin Valley Town Hall</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+	<header>
+		<img src="images/town_hall_logo.gif" alt="Town Hall logo" height="80">
+		<h2>San Joaquin Valley Town Hall</h2>
+		<h3>Celebrating our 75<sup>th</sup> Year</h3>
+	</header>
+	<main>
+		<h2>Our Mission</h2>
 
-### Markdown
+		<p>San Joaquin Valley Town Hall is a non-profit organization that is run by an all-volunteer board of directors. Our mission is to bring nationally and internationally renowned, thought-provoking speakers who inform, educate, and entertain our audience! As one or our members told us:</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+		<blockquote>&ldquo;Each year I give a ticket package to each of our family members. I think of it as the gift of knowledge...and that is priceless.&rdquo;</blockquote>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+		<h2>Our Ticket Packages</h2>
+		<ul>
+			<li>Season Package: $95</li>
+			<li>Patron Package: $200</li>
+			<li>Single Speaker: $25</li>
+		</ul>
 
-- Bulleted
-- List
+		<h1>This season's guest speakers</h1>
 
-1. Numbered
-2. List
+		<h2>October<br><a href="speakers/toobin.html">Jeffrey Toobin</a></h2>
+		<img src="images/toobin75.jpg" alt="Image of Jeffery Toobin">
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vidulshukla/A08/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+		<h2>November<br><a href="speakers/sorkin.html">Andrew Ross Sorkin</a></h2>
+		<img src="images/sorkin75.jpg" alt="Image of Andrew Ross Sorkin">
+		
+		<h2>January<br><a href="speakers/chua.html">Amy Chua</a></h2>
+		<img src="images/chua75.jpg" alt="Image of Amy Chua">
+	</main>
+	<footer>
+		<p>&copy; 2018, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
+		<p>&copy; 2021, Vidul Shukla (vs233)</p>
+	</footer>
+</body>
+</html>
